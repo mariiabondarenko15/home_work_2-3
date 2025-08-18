@@ -1,0 +1,83 @@
+body {
+  background-color: lightcoral;
+  color:aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  background-color: darkred;
+  color: aliceblue;
+}
+
+input {
+  border: 2px solid darkred
+}
+
+input[name] {
+  background-color: pink;
+}
+
+.name-label {
+  color: darkgreen;
+}
+
+.email-label {
+  color: darkgreen;
+}
+
+.articles-h1 {
+  color:darkgreen;
+  font-size: 2rem;
+  text-align: center;
+  border: 1em solid white
+}
+
+.about-h1 {
+  text-align: center;
+  border: 5px dotted white;
+  border-left: solid darkred; border-right: solid darkred;
+  border-radius: 2em;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+.index-h1 {
+  text-align: center;
+}
+
+.index-p {
+  text-align: center;
+}
+
+.index-image {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.top-span {
+  color: maroon;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

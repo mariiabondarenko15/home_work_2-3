@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Головна</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a href="articles.html">Статті</a></li>
+          <li><a href="#">Контакти</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="questions.html">Часті питання</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Зв’яжіться з нами</h1>
+      <form>
+        <fieldset>
+          <legend>Особиста інформація</legend>
+          <div>
+            <label for="name" class="name-label">Ваше ім'я:</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Введіть ваше ім'я"
+            />
+          </div>
+          <div>
+            <label for="email" class="email-label">Ваша пошта:</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Введіть вашу пошту"
+            />
+          </div>
+        </fieldset>
+        <textarea name="message" rows="12"></textarea>
+        <div>
+          <label>Питання</label>
+          <input type="radio" name="type" value="question" />
+        </div>
+        <div>
+          <label>Пропозиція</label>
+          <input type="radio" name="type" value="offer" />
+        </div>
+        <div>
+          <input type="checkbox" name="agree" value="yes" id="agree" />
+          <label for="agree">Я погоджуюсь на обробку персональних даних</label>
+        </div>
+        <button type="submit">Відправити</button>
+      </form>
+    </main>
+  </body>
+</html>
